@@ -75,7 +75,7 @@ setup(
     ],
     entry_points={
         'lms.djangoapp': [
-            'app_for_saladbar = app_for_saladbar.apps:AppForSaladbarConfig',
+            'appforsaladbar = appforsaladbar.apps:AppforsaladbarConfig',
         ],
     },
 )
