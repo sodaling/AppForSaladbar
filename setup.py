@@ -74,7 +74,7 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     entry_points={
-        'lms.djangoapp': [
+        'lms.djangoapps': [
             'appforsaladbar = appforsaladbar.apps:AppforsaladbarConfig',
         ],
     },
