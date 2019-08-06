@@ -13,7 +13,7 @@ from openedx.core.lib.api.parsers import MergePatchParser
 from rest_framework import permissions, status
 from rest_framework.response import Response
 from rest_framework.viewsets import ViewSet
-from user_api.errors import UserNotFound
+from openedx.core.djangoapps.user_api.errors import UserNotFound
 
 from .api import get_account_settings
 

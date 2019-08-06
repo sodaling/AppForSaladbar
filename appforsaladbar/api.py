@@ -9,7 +9,7 @@ from student.models import (
     User
 )
 
-from .serializers import (
+from openedx.core.djangoapps.user_api.serializers import (
     UserReadOnlySerializer, _visible_fields  # pylint: disable=invalid-name
 )
 
