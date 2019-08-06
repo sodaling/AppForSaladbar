@@ -3,10 +3,9 @@ Management command `enabling_TPA` is used to idempotently enable Third Party Aut
 """
 import logging
 
-from django.core.management.base import BaseCommand, CommandError
-from django.db import transaction
-
 from django.contrib.sites.models import Site
+from django.core.management.base import BaseCommand
+from django.db import transaction
 from third_party_auth.models import OAuth2ProviderConfig
 
 LOG = logging.getLogger(__name__)
