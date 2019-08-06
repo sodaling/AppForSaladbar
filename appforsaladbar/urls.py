@@ -12,7 +12,7 @@ app_name = 'appforsaladbar'
 urlpatterns = [
     url(r'', TemplateView.as_view(template_name="base.html")),
     url(
-        r'^/api/user/v1/accounts_list$',
+        r'^api/user/v1/accounts_list$',
         ACCOUNTSALADBAR_LIST,
         name='accounts_detail_api_saladbar'
     ),
